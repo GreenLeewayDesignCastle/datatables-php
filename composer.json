@@ -10,8 +10,8 @@
             "email": "jan@deft.nl"
         },
         {
-            "name": "Pieter Verloop",
-            "email": "p.verloop@plein.nl"
+            "name": "Avoran",
+            "email": "avoran@protonmail.com"
         }
     ],
     "require": {
@@ -25,12 +25,6 @@
     "autoload": {
         "psr-0": {
             "Deft\\DataTables": "src/"
-        }
-    },
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.1-dev"
         }
     }
 }
