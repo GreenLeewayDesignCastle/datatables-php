@@ -26,7 +26,7 @@ class RequestParser implements RequestParserInterface
 
         foreach ($columnMapping as $i => $column) {
             $search = $query->get("sSearch_{$i}");
-            if ($search) $request->columnFilters[$column] = $search;
+            if ($search !== "") $request->columnFilters[$column] = $search;
         }
 
         for ($i = 0; $i < $query->get('iSortingCols'); $i++) {
